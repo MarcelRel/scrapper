@@ -1,0 +1,86 @@
+{
+  "id": "b00b19bb-93ac-48dd-8d24-c4587090fe8b",
+  "version": "2.0",
+  "name": "JasperToKumpel",
+  "url": "niestety nie moge podac",
+  "tests": [{
+    "id": "0d430564-1f96-4393-a0ee-c8770dc76b78",
+    "name": "test1",
+    "commands": [{
+      "id": "41d2eb1c-acd2-4e82-bd45-909cc7b142d7",
+      "comment": "",
+      "command": "open",
+      "target": "niestety nie moge podac",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa373b91-f8a1-4da3-a1ec-44e6fbc78aa4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1353x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7dd25ea-4ac2-487d-82e0-25d08e6ff0ea",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4df4ffd3-47e5-4e2f-ad71-bf810f47e7e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#export .indicator",
+      "targets": [
+        ["css=#export .indicator", "css:finder"],
+        ["xpath=//button[@id='export']/span/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87641482-4131-4c12-8c34-c0ad7fa280a3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[6]/div/div/ul/li[4]/p",
+      "targets": [
+        ["css=.over:nth-child(1)", "css:finder"],
+        ["xpath=//li[@id='menuList_simpleAction_29']/p", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/ul/li[4]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'CSV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a614b54-9a64-4f0a-9d86-d5adefbd637b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b7d6703-d529-44c5-9595-966bac389b44",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "081605ac-339d-4440-ab44-97b372c61744",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "821cb873-ab89-4ea1-98cf-50dac5d7c69b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0d430564-1f96-4393-a0ee-c8770dc76b78"]
+  }],
+  "urls": ["niestety nie moge podac"],
+  "plugins": []
+}
